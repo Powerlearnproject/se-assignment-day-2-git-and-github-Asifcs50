@@ -9,6 +9,9 @@ Once one has a github account, go to the main dashboard and then navigate to the
 A README file is generally used to describe the project and its purpose and set rules for contributions if the project is open source. It should include a short description of the project, its purpose and how to use it, links to the documentation, and any rules for open source contributors. This helps contributors better understand exactly what is required of them and therefore contribute code that is relevant to the project.
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
+A public repo will be available to any github user without requiring any special permissions. It is very advantageous for open source projects as it is accessible to anyone hence having a much larger talent pool to get contributions from and hence problems can be solved relatively quickly. It can be disadvantageous for the same reason as it would be relatively easy for someone to introduce malicious code into the project.
+
+A private repo is available to only the creator and the users they grant permission. It is advantageous for closed source projects as it prevents unknown people from contributing irrelevant or potentially malicious code to the project. It can be disadvantageous as it has a much smaller pool of devs to receive contributions from and hence a problem might go unsolved for a relatively long time if none of them can solve it.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
