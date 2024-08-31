@@ -16,12 +16,17 @@ A public repo will be available to any github user without requiring any special
 A private repo is available to only the creator and the users they grant permission. It is advantageous for closed source projects as it prevents unknown people from contributing irrelevant or potentially malicious code to the project. It can be disadvantageous as it has a much smaller pool of devs to receive contributions from and hence a problem might go unsolved for a relatively long time if none of them can solve it.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
+Commits are basically save points for a project. They keep track of the code in the project at the time of the commit. They are essential in version control as different commits will have differences in code hence showing what changed between the various versions and this helps in managing the code versions as code can just be rolled back to a previous commit instead of having to delete and rewrite blocks of code.
+To make a commit to a github repo, the local directory must first have git initialised to track it. It should also be connected to a github repo via the add origin command. Next, any required changes can be made to the files and then the files are staged with the git add command. Then the changes can be commited and a message added with the git commit command. Finally, the changes are also made to the github repo with the git push command.
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
+Branching is important as it allows devs to work on small parts of the project without messing with the rest of the code. 
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+Pull requests are important in collaboration as they provide 
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
+Forking is the creation of another repo that is a copy of the first one. It differs from cloning in that it creates an entirely new independent repo and any changes to the code there would not affect the code in the original one. Scenarios in which it would be useful include open source projects. As directly changing the code of the original project may cause conflicts if multiple devs change the same thing, forking prevents this by allowing each dev to work on their own copies of the repo and then starting pull requests to have the original owner inspect the code and integrate only the code they require.
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
 
